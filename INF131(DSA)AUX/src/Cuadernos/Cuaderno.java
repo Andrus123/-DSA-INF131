@@ -4,7 +4,6 @@ public class Cuaderno {
 	private String marca, tamaño;
 	private int nroHojas;
 	public Cuaderno() {
-		// TODO Auto-generated constructor stub
 		super();
 	}
 	public Cuaderno(String marca, int nroHojas, String tamaño) {
