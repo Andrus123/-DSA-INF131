@@ -81,41 +81,4 @@ public class Main {
 			a1.adicionar(aux.eliminar());
 		return cont;
 	}
-	
-	
-//	private static void MascotaMasAtendida(ColaAtenciones a1, ColaMascotas m1) {
-//		// TODO Auto-generated method stub
-//		ColaAtenciones auxt= new ColaAtenciones(), res=new ColaAtenciones();
-//		ColaMascotas auxm=new ColaMascotas();
-//		System.out.println("Mascota más atendida");
-//		Mascota max=null;
-//		int cont=0;
-//		while(!a1.esvacio()) {
-//			Atencion x=a1.eliminar();
-//			res.adicionar(x);
-//			while(!a1.esvacio()) {
-//				Atencion y=a1.eliminar();
-//				if(x.getIdMascota()==y.getIdMascota()) {
-//					cont++;
-//					while(!m1.esvacio()) {
-//						Mascota auxmax=m1.eliminar();
-//						if(auxmax.getIdMascota()==y.getIdMascota()) {
-//							 max = auxmax;
-//							 auxm.adicionar(auxmax);
-//						}else {
-//							auxm.adicionar(auxmax);
-//						}
-//					}
-//					m1.vaciar(auxm);
-//					res.adicionar(y);
-//				}else {
-//					auxt.adicionar(y);
-//				}
-//			}
-//			a1.vaciar(auxt);
-//		}
-//		a1.vaciar(res);
-//		max.mostrar();
-//		System.out.println("Mascotas atendidas más de una vez: "+cont);
-//	}
 }
