@@ -35,6 +35,7 @@ public class ColaAtenciones {
 	void llenar() {
 		adicionar(new Atencion(2233, "3/09/2021"));
 		adicionar(new Atencion(1166, "5/09/2021"));
+		adicionar(new Atencion(1166, "3/09/2021"));
 		adicionar(new Atencion(6633, "6/09/2021"));
 		adicionar(new Atencion(5544, "7/09/2021"));
 		adicionar(new Atencion(9988, "3/09/2021"));
