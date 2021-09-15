@@ -35,9 +35,9 @@ public class ColaPersonas {
 		return elem;
 	}
 	void llenar() {
-		adicionar(new Persona("Andres",25,new Libro("Eloquent Js", "Marijn", 500)));
+		adicionar(new Persona("Andres",25,new Libro("Eloquent Js", "Marijn", 513)));
 		adicionar(new Persona("Mauren",23,new Libro("Don Quijote", "De Cervantes", 1500)));
-		adicionar(new Persona("Kelly",24,new Libro("El Padrino", "Puzo", 2000)));
+		adicionar(new Persona("Kelly",24,new Libro("El Padrino", "Puzo", 2157)));
 		adicionar(new Persona("Carlo",24,new Libro("Zero to One", "Thiel", 350)));
 		adicionar(new Persona("Fabri",25,new Libro("Cryptonomicon", "Anonimos", 3000)));
 	}
