@@ -16,7 +16,6 @@ public class Main {
 		pe1.mostrar();
 		pv1.mostrar();
 		// b Ordena las evaluaciones de cada estudiante
-		SolucionA(pv1,pe1);
 	}
 
 	private static void SolucionA(PilaEvaluacion pv1, PilaEstudiante pe1) {
